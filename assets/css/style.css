@@ -113,11 +113,11 @@ body, html{
   }
   
   #btn-eliminar {
-  translate: 27px -58px;
+    translate: 40px -58px;
   }
   
   #btn-copiar {
-  translate: 27px 96px;
+    translate: 40px 147px;
   }
   
   #btns-aside {
@@ -147,11 +147,6 @@ body, html{
   
   #tercer-icon {
   margin-top: 10px;
-  }
-  
-  .rango, input {
-  width: 13.8vw;
-  
   }
   
   #cuarto-icon {

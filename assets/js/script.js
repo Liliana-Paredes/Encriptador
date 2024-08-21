@@ -84,6 +84,10 @@ function encriptar() {
       textarea.select();
       await navigator.clipboard.writeText(textarea.value);
       button.innerText = "Copiado";
+      setTimeout(() => {
+        getSelection().removeAllRanges();
+        button.innerText = "Copiar";
+      }, 1800);
     } catch (error) {
       alert(error);
     }
@@ -99,3 +103,4 @@ function encriptar() {
     document.getElementById("ingresar-texto").value = "";
     document.getElementById("resultado-texto").value = "";
   });
+  
